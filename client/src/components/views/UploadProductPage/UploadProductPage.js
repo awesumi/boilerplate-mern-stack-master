@@ -58,7 +58,12 @@ function UploadProductPage() {
         <br />
         <br />
         <label>가격($)</label>
-        <Input type="number" onChange={priceChangeHandler} value={Price} />
+        <Input
+          type="number"
+          onChange={priceChangeHandler}
+          value={Price}
+          placeholder="0"
+        />
         <br />
         <br />
         <select onChange={continentChangeHandler} value={Continent}>
